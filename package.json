@@ -1,0 +1,23 @@
+{
+  "name": "emo-ji",
+  "version": "1.0.0",
+  "description": "An Emoji html custom element that lets you use descriptive names in place of unicode!",
+  "main": "index.js",
+  "scripts": {
+    "dist": "browserify -d -s EmojiElement . | exorcist dist/emoji.js.map > dist/emoji.js",
+    "prepublish": "npm run dist",
+    "test": "opn test.html"
+  },
+  "keywords": [],
+  "author": "Will Binns-Smith <wbinnssmith@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "exorcist": "^0.4.0",
+    "opn-cli": "^1.0.0"
+  },
+  "dependencies": {
+    "emojilib": "^1.0.1",
+    "object-assign": "^4.0.1"
+  }
+}
