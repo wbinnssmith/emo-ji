@@ -30,7 +30,7 @@ document.registerElement('emo-ji', { prototype: emoji });
 ... where `bundle.js` is your browserify or webpack bundle.
 
 ## Screenshots
-
+![](https://cloud.githubusercontent.com/assets/755844/9677170/6fa77b08-528b-11e5-925d-f67ffe73179f.png)
 
 ## Credits
 @muan's emojilib is pretty great. Any contributions there will only make other emoji things better!
