@@ -1,6 +1,8 @@
 # emo-ji
 An Emoji html custom element that lets you use descriptive names in place of unicode! This module is called `emo-ji` and that's a recommended tag name, but you can assign it however you like.
 
+![](https://cloud.githubusercontent.com/assets/755844/9690083/1df2b520-52ef-11e5-819a-fb4062910aeb.gif)
+
 ## Installation
 `npm install --save emo-ji`
 
