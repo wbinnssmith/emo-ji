@@ -1,6 +1,6 @@
 {
   "name": "emo-ji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Emoji html custom element that lets you use descriptive names in place of unicode!",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,9 @@
     "prepublish": "npm run dist",
     "test": "opn test.html"
   },
-  "keywords": ["web-components"],
+  "keywords": [
+    "web-components"
+  ],
   "author": "Will Binns-Smith <wbinnssmith@gmail.com>",
   "license": "Apache-2.0",
   "devDependencies": {
