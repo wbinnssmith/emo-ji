@@ -7,7 +7,7 @@ An Emoji html custom element that lets you use descriptive names in place of uni
 `npm install --save emo-ji`
 
 ## Requirements
-This is a vanilla web component. It assumes that Custom Elements and the Shadow DOM are available in the runtime. If they aren't, [pollyfill them](https://github.com/WebComponents/webcomponentsjs)!
+This is a vanilla web component. It assumes that Custom Elements and the Shadow DOM are available in the runtime. If they aren't, [polyfill them](https://github.com/WebComponents/webcomponentsjs)!
 
 ## Usage
 Bundle with browserify! Webpack works too. If you don't use one of these, use `dist/emoji.js` and EmojiElement will be set on `window`. Use that as the prototype when registering your element.
