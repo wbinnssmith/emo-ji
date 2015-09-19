@@ -1,6 +1,6 @@
 {
   "name": "emo-ji",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An Emoji html custom element that lets you use descriptive names in place of unicode!",
   "repository": "wbinnssmith/emo-ji",
   "main": "index.js",
