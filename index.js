@@ -15,14 +15,14 @@ function charFor(type) {
 var emoji = Object.create(HTMLElement.prototype);
 assign(emoji, {
 	createdCallback: function () {
-		this._shadow = this.createShadowRoot();
+		var shadow = this.createShadowRoot();
 
 		var type = this.getAttribute('type');
-		this._shadow.textContent = charFor(type);
+		shadow.textContent = charFor(type);
 	},
 
 	attributeChangedCallback: function (attr, oldVal, newVal) {
-		this._shadow.textContent = charFor(newVal);
+		this.shadowRoot.textContent = charFor(newVal);
 	}
 });
 
