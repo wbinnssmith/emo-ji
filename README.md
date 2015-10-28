@@ -7,7 +7,13 @@ An Emoji html custom element that lets you use descriptive names in place of uni
 `npm install --save emo-ji`
 
 ## Requirements
-This is a vanilla web component. It assumes that Custom Elements and the Shadow DOM are available in the runtime. If they aren't, [polyfill them](https://github.com/WebComponents/webcomponentsjs)!
+This is a vanilla web component. It assumes that [Custom Elements](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/) and the [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM) are available in the runtime. This means it is currently compatible with the following browsers:
+
+| <img src="http://i.imgur.com/dJC1GUv.png" width="48px" height="48px" alt="Chrome logo"> | <img src="http://i.imgur.com/o1m5RcQ.png" width="48px" height="48px" alt="Firefox logo"> | <img src="http://i.imgur.com/8h3iz5H.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="http://i.imgur.com/iQV4nmJ.png" width="48px" height="48px" alt="Opera logo"> | <img src="http://i.imgur.com/j3tgNKJ.png" width="48px" height="48px" alt="Safari logo"> |
+|:---:|:---:|:---:|:---:|:---:|
+| 43+ ✔ | Nope ✘ | Nope ✘ | 32+ ✔ | Nope ✘ |
+
+If you need wider support, you can [polyfill](https://github.com/WebComponents/webcomponentsjs) web components!
 
 ## Usage
 Bundle with browserify! Webpack works too. If you don't use one of these, use `dist/emoji.js` and EmojiElement will be set on `window`. Use that as the prototype when registering your element.
