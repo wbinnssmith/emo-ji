@@ -66,7 +66,7 @@ module.exports={
     "category": "people"
   },
   "yum": {
-    "keywords": ["happy", "joy", "tongue", "smile", "face", "silly", "yummy"],
+    "keywords": ["happy", "joy", "tongue", "smile", "face", "silly", "yummy", "goofy", "hungry"],
     "char": "😋",
     "category": "people"
   },
