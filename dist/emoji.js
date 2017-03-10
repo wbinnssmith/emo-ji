@@ -246,7 +246,7 @@ module.exports={
     "category": "people"
   },
   "hushed": {
-    "keywords": ["face", "woo", "shh"],
+    "keywords": ["face", "surprise", "woo", "shh"],
     "char": "😯",
     "category": "people"
   },
