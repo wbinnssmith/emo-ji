@@ -41,12 +41,12 @@ module.exports={
     "category": "people"
   },
   "smiling_imp": {
-    "keywords": ["devil", "horns"],
+    "keywords": ["devil", "horns", "evil", "purple goblin"],
     "char": "😈",
     "category": "people"
   },
   "imp": {
-    "keywords": ["devil", "angry", "horns"],
+    "keywords": ["devil", "angry", "horns", "evil", "purple goblin"],
     "char": "👿",
     "category": "people"
   },
