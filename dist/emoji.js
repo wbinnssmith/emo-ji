@@ -426,12 +426,12 @@ module.exports={
     "category": "people"
   },
   "older_man": {
-    "keywords": ["human", "male", "men"],
+    "keywords": ["human", "male", "men", "grandfather"],
     "char": "👴",
     "category": "people"
   },
   "older_woman": {
-    "keywords": ["female", "women", "girl", "lady"],
+    "keywords": ["female", "women", "girl", "lady", "grandmother"],
     "char": "👵",
     "category": "people"
   },
