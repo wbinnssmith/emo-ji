@@ -41,12 +41,12 @@ module.exports={
     "category": "people"
   },
   "smiling_imp": {
-    "keywords": ["devil", "horns"],
+    "keywords": ["devil", "horns", "evil", "purple goblin"],
     "char": "😈",
     "category": "people"
   },
   "imp": {
-    "keywords": ["devil", "angry", "horns"],
+    "keywords": ["devil", "angry", "horns", "evil", "purple goblin"],
     "char": "👿",
     "category": "people"
   },
@@ -66,7 +66,7 @@ module.exports={
     "category": "people"
   },
   "yum": {
-    "keywords": ["happy", "joy", "tongue", "smile", "face", "silly", "yummy"],
+    "keywords": ["happy", "joy", "tongue", "smile", "face", "silly", "yummy", "goofy", "hungry"],
     "char": "😋",
     "category": "people"
   },
@@ -246,7 +246,7 @@ module.exports={
     "category": "people"
   },
   "hushed": {
-    "keywords": ["face", "woo", "shh"],
+    "keywords": ["face", "surprise", "woo", "shh"],
     "char": "😯",
     "category": "people"
   },
@@ -426,12 +426,12 @@ module.exports={
     "category": "people"
   },
   "older_man": {
-    "keywords": ["human", "male", "men"],
+    "keywords": ["human", "male", "men", "grandfather"],
     "char": "👴",
     "category": "people"
   },
   "older_woman": {
-    "keywords": ["female", "women", "girl", "lady"],
+    "keywords": ["female", "women", "girl", "lady", "grandmother"],
     "char": "👵",
     "category": "people"
   },
